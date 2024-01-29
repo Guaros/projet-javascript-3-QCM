@@ -1,0 +1,264 @@
+{
+    "questions" : 
+    [
+        {
+            "description" : "Qu'est-ce que Symfony ?",
+            "reponses" : 
+            [
+                {
+                    "description" :".navbar",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :".nav",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :".nav-bar",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :".navigation",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Qui a créé Bootstrap ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Le pattern matching",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Les f-strings",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"L'opérateur walrus",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"La suppression du GIL ",
+                    "estCorrecte" : true
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle est la dernière version stable de Symfony ?",
+            "reponses" : 
+            [
+                {
+                    "description" :".alert",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :".message",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :".warning",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :".notification",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle est la particularité de l'approche RAD (Rapid Application Development) utilisée dans WinDev ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"tuple",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"str",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"frozenset",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"set",
+                    "estCorrecte" : true
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel est le type de données mutable en Python ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Blade",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Twig",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Smarty",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Handlelbars",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Comment déclare-t-on un formulaire dans Angular?",
+            "reponses" : 
+            [
+                {
+                    "description" :"&",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"+",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :".",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"|=",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle est la boucle utilisée pour itérer sur les éléments d'une liste en Python ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"/app",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"/src",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"/bin",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"/config",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle méthode est utilisée pour effectuer des opérations après l'initialisation d'un composant Angular?",
+            "reponses" : 
+            [
+                {
+                    "description" :"import",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"include",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"require",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"using",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle est la méthode utilisée pour ajouter un élément à la fin d'une liste en Python ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"@Injectable",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"@InjectService",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"@Service",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"@Inject",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle est la structure de répertoires principale d'un projet Symfony ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"MySQL",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"SQLite",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Oracle",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"HyperFileSQL",
+                    "estCorrecte" : true
+                }
+            ]
+        }
+    ]
+}

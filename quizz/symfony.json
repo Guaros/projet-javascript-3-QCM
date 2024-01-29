@@ -1,0 +1,264 @@
+{
+    "questions" : 
+    [
+        {
+            "description" : "Qu'est-ce que Symfony ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Un CMS",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Un framework PHP",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Un système de gestion de base de données",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Un langage de programmation",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Qui a créé Symfony ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Facebook",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Google",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"SensioLabs",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Microsoft",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle est la dernière version stable de Symfony ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"3.x",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"4.x",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"5.x",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"6.x",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel composant de Symfony est utilisé pour la gestion des formulaires ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Form",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Input",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Field",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Validator",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel est le composant principal de Symfony pour la gestion des routes ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Route",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Routing",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"URLMatcher",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Router",
+                    "estCorrecte" : true
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel est le moteur de template par défaut de Symfony ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Blade",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Twig",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Smarty",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Handlelbars",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle commande est utilisée pour créer un nouveau projet Symfony via la ligne de commande ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"symfony new",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"php new",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"composer create-project symfony/skeleton",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"create-symfony-project",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel est le nom de la configuration principale de Symfony ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"config.yml",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"app.yml",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"symfony.yml",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"config.php",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel est l'outil de ligne de commande utilisé pour gérer les dépendances dans Symfony ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"php artisan",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"npm",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Composer",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Symfony CLI",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle est la structure de répertoires principale d'un projet Symfony ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"/app",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"/src",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"/bin",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"/config",
+                    "estCorrecte" : false
+                }
+            ]
+        }
+    ]
+}

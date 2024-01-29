@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <main>
+        <h1>QUIZZ</h1>
+        <h2>score : <span id="score">0</span></h2>
+
+        <div id="formulaire">
+            <select name="theme" id="theme" value="Choisissez une option">
+                <option value="">Choisissez une option</option>
+                <option value="angular">Angular</option>
+                <option value="boostrap">Boostrap</option>
+                <option value="symfony">Symfony</option>
+                <option value="python">Python</option>
+                <option value="windev">Windev</option>
+                <option value="kamoulox">Kamoulox</option>
+            </select>
+
+            <button id="boutonDemarrer">Demarrer</button>
+        </div>
+
+        <h2 id="descriptionQuestion"></h2>
+        
+        <div id="conteneurReponses">
+            <button id="reponse1"></button>
+            <button id="reponse2"></button>
+            <button id="reponse3"></button>
+            <button id="reponse4"></button>
+        </div>
+    </main>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

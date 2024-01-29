@@ -1,0 +1,82 @@
+/* #D9AC46 */
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+*::selection
+{
+    color:#8300FF;
+}
+
+main 
+{
+
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1E9CF;
+}
+
+h1
+{
+    font-size:6em;
+    margin:2vh;
+}
+
+h2
+{
+    font-size:4em;
+    text-align: center;
+    margin:2vh;
+}
+
+select, #boutonDemarrer 
+{
+    font-size:2em;
+}
+
+#conteneurReponses
+{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+#conteneurReponses > button 
+{
+    width:17vw;
+    height:17vw;
+    background-color:#D9AC46;
+    border-style: none;
+    border-radius: 3vw;
+    font-size:2em;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 500px)
+{
+    h1 
+    {
+        font-size: 3em;
+    }
+    
+    h2 
+    {
+        font-size: 2em;
+    }
+
+    select, #boutonDemarrer 
+    {
+        font-size: 1em;
+    }
+
+    #conteneurReponses > button 
+    {
+        font-size:0.8em;
+    }
+}

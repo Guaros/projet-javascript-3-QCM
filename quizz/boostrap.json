@@ -1,0 +1,264 @@
+{
+    "questions" : 
+    [
+        {
+            "description" : "Qu'est-ce que Bootstrap ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Un langage de programmation",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Une bibliothèque CSS",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Un gestionnaire de bases de données",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Un navigateur web",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Qui a créé Bootstrap ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Google",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Twitter",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Facebook",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Microsoft",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle est la dernière version stable de Bootstrap ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"3.5",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"4.5",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"5.0",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"6.0",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel préprocesseur est utilisé dans Bootstrap pour le CSS ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Sass",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Less",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Stylus",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"PostCSS",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel est le système de grille utilisé par Bootstrap ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Flexbox",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Grid",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Floats",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Tableaux",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle classe est utilisée pour créer un bouton dans Bootstrap ?",
+            "reponses" : 
+            [
+                {
+                    "description" :".button",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :".btn",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :".button-style",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :".btn-style",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle balise est utilisée pour créer un conteneur fluide dans Bootstrap ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"<container>",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"<fluid-container>",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"<div class='container-fluid'>",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"<div class='fluid-container'>",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle classe est utilisée pour créer une barre de navigation dans Bootstrap ?",
+            "reponses" : 
+            [
+                {
+                    "description" :".navbar",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :".nav",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :".nav-bar",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :".navigation",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle classe est utilisée pour créer une alerte dans Bootstrap ?",
+            "reponses" : 
+            [
+                {
+                    "description" :".alert",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :".message",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :".warning",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :".notification",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel est l'utilité de l'outil Bootlint ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Compiler le code JavaScript",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Valider le code HTML",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Optimiser les images",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Tester la compatibilité avec les navigateurs",
+                    "estCorrecte" : false
+                }
+            ]
+        }
+    ]
+}

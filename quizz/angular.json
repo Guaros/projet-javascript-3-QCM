@@ -1,0 +1,264 @@
+{
+    "questions" : 
+    [
+        {
+            "description" : "Quelle est la directive Angular utilisée pour créer un lien hypertexte?",
+            "reponses" : 
+            [
+                {
+                    "description" :"ng-link",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"ng-href",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"ng-a",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"ng-bind",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel module Angular est utilisé pour effectuer des requêtes HTTP?",
+            "reponses" : 
+            [
+                {
+                    "description" :"ng-http",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"ng-request",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"ng-ajax",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"HttpClientModule",
+                    "estCorrecte" : true
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Comment déclare-t-on une variable dans un template Angular?",
+            "reponses" : 
+            [
+                {
+                    "description" :"var",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"let",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"const",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"ng-var",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle directive Angular est utilisée pour créer une boucle dans un template?",
+            "reponses" : 
+            [
+                {
+                    "description" :"ng-loop",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"ng-for",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"ng-repeat",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"ng-iterate",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel décorateur est utilisé pour injecter un service dans un composant Angular?",
+            "reponses" : 
+            [
+                {
+                    "description" :"@Injectable",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"@InjectService",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"@Service",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"@Inject",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Comment déclare-t-on un formulaire dans Angular?",
+            "reponses" : 
+            [
+                {
+                    "description" :"ng-form",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"form",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"ng-form-group",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"FormGroup",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle fonction est utilisée pour naviguer vers une autre route dans Angular?",
+            "reponses" : 
+            [
+                {
+                    "description" :"navigateTo",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"goRoute",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"routeTo",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"navigate",
+                    "estCorrecte" : true
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle méthode est utilisée pour effectuer des opérations après l'initialisation d'un composant Angular?",
+            "reponses" : 
+            [
+                {
+                    "description" :"onInit",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"ngAfterInit",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"ngInit",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"ngOnInit",
+                    "estCorrecte" : true
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Comment utilise-t-on le two-way data binding dans Angular?",
+            "reponses" : 
+            [
+                {
+                    "description" :"[(model)]",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"{{model}}",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"[model]",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"(model)",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel module Angular est utilisé pour gérer les formulaires réactifs?",
+            "reponses" : 
+            [
+                {
+                    "description" :"ReactiveFormsModule",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"ng-forms",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"FormsModule",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"ng-reactive-forms",
+                    "estCorrecte" : false
+                }
+            ]
+        }
+    ]
+}

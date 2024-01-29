@@ -1,0 +1,264 @@
+{
+    "questions" : 
+    [
+        {
+            "description" : "Qu'est-ce que Windev ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Un système d'exploitation",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Un framework web",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Un langage de programmation",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Un environnement de développement intégré (EDI)",
+                    "estCorrecte" : true
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Qui est l'éditeur de WinDev ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Microsoft",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Adobe",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"PC SOFT",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"IBM",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel est le langage de programmation principalement utilisé dans WinDev ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Java",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"C#",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"PHP",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"WLangage",
+                    "estCorrecte" : true
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle base de données est principalement utilisée avec WinDev ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"MySQL",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"SQLite",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Oracle",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"HyperFileSQL",
+                    "estCorrecte" : true
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle est la particularité de l'approche RAD (Rapid Application Development) utilisée dans WinDev ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Elle favorise le développement lent et méthodique",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Elle favorise le développement rapide et itératif",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Elle ne permet pas de visualiser les interfaces utilisateur",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Elle nécessite l'écriture de beaucoup de code à la main",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel composant de WinDev est utilisé pour créer des fenêtres d'interface utilisateur ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"WUI (WinDev User Interface)",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"UI (User Interface)",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"EDT (Éditeur de Texte)",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Fenêtre",
+                    "estCorrecte" : true
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle est la fonction principale de l'outil 'Analyse' dans WinDev ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Analyser les performances du code",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Créer des diagrammes UML",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Concevoir et organiser la structure des données",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Générer des rapports d'erreur",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle est la version la plus récente de WinDev ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Windev 27",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Windev 28",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Windev 29",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Windev 30",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle est la fonction principale de l'outil 'Analyseur de requêtes' dans WinDev ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Tester la performance des requêtes SQL",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Vérifier la syntaxe des requêtes SQL",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Optimiser les requêtes SQL",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Créer des requêtes SQL à partir de modèles",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel est l'outil de versioning intégré dans WinDev ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"WinVersion",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"VersionControl",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"WinDevVersion",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"GIT intégré",
+                    "estCorrecte" : false
+                }
+            ]
+        }
+    ]
+}

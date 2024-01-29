@@ -1,0 +1,264 @@
+{
+    "questions" : 
+    [
+        {
+            "description" : "Qu'est-ce que Python ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Un framework web",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Un langage de programmation",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Un gestionnaire de bases de données",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Un CMS",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Qui est le créateur de Python ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Guido van Rossum",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"Larry Wall",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"James Gosling",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Linus Torvalds",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle est la dernière version stable de Python ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"3.10",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"3.11",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"3.12",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"3.13",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel est le mot-clé utilisé pour définir une fonction en Python ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"function",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"def",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"define",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"func",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel est le type de données mutable en Python ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"tuple",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"str",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"frozenset",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"set",
+                    "estCorrecte" : true
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel opérateur est utilisé pour la concaténation de chaînes de caractères en Python ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"&",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"+",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :".",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"|=",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle est la boucle utilisée pour itérer sur les éléments d'une liste en Python ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"for each",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"foreach",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"for",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"for of",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quel est le mot-clé utilisé pour importer un module en Python ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"import",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"include",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"require",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"using",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle est la méthode utilisée pour ajouter un élément à la fin d'une liste en Python ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"add",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"append",
+                    "estCorrecte" : true
+                },
+
+                {
+                    "description" :"concat",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"push",
+                    "estCorrecte" : false
+                }
+            ]
+        }, 
+
+        {
+            "description" : "Quelle sera la fonctionnalité majeure de la version 3.13 de Python ?",
+            "reponses" : 
+            [
+                {
+                    "description" :"Le pattern matching",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"Les f-strings",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"L'opérateur walrus",
+                    "estCorrecte" : false
+                },
+
+                {
+                    "description" :"La suppression du GIL ",
+                    "estCorrecte" : true
+                }
+            ]
+        }
+    ]
+}

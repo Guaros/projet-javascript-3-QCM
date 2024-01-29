@@ -1,0 +1,38 @@
+Stockage : 
+
+Pour commencer, je cherche le meilleur moyen de stocker mes questions.
+- Soit je stocke tout dans le code : Ca alourdit le fichier et ça rend la création de nouvelles questions/nouveaux thèmes plus difficile
+- Soit je stocke tout dans un fichier JSON : Ca règle les problèmes évoqués. Avec 1 fichier json par thème (c'est ce que je vais utiliser :) )
+
+Architecture : 
+
+Je réfléchis ensuite à l'architecture de mon fichier JSON. Un fichier JSON qui va stocker un tableau de questions (nos 10 questions). Chaque question à une description (le texte) et des propositions. Les propositions sont elles-même stockées sous forme de tableau (4 propositions) avec la description (le texte) et si elle est correcte ou non 
+
+Classes : 
+
+Une fois que l'architecture est conçue, je n'ai plus qu'à la recopier avec des classes Proposition et Question. Le code devient plus long mais on gagne en lisibilité, c'est tout le principe de la POO. J'ajoute une classe Quizz qui va représenter la partie en elle-même (et qui stocke donc la liste des Question et le nombre de points). Le terme "liste" est important, j'utilise ma classe List personnalisée (je la préfère aux tableaux natifs) 
+
+Asynchrone : 
+
+Pour lire le fichier JSON, j'ai choisi d'utiliser fetch (car le code est plus court qu'avec ajax). Dans les 2 cas, je suis contraint de créer des coroutines (car la récupération des données est asynchrone, or dans ce cas j'en ai besoin avant de faire quoi que ce soit). Je vais donc transformer la promesse de récupération de données en awaitable. Comme ma fonction recupererDonnees est une coroutine, je dois elle-même l'appeler dans une coroutine, dans ce cas, j'ai décidé de passer par une fonction main qui va l'attendre 
+
+Décomposer les opérations : 
+
+Avant de pouvoir jouer une partie, je commence par décomposer tous les traitements
+- récupérer les données
+- convertir ces données en liste
+- afficher les questions en html 
+- jouer une manche
+- jouer une partie
+- terminer une partie
+- rejouer une partie
+...
+
+Chaque traitement est lui même décomposé. 
+
+Par exemple pour jouer une manche
+- je récupère le bouton sur lequel l'utilisateur à cliqué
+- je récupère la réponse associée
+- si l'utilisateur à la bonne réponse, j'augmente son nombre de points de 1
+- je passe à la manche suivante
+- j'affiche la question suivante 
